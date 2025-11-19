@@ -372,11 +372,15 @@ body {
   border-radius: 4px;
 }
 
-.footer > .wrapper {
+.footer-bottom {
+  background-color: #000;
+  padding: 20px 0;
+}
+
+.footer-bottom .wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 40px;
-  background-color: #000;
+  padding: 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
